@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,33 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.main-body{
+  display: flex;
 }
+.main-body > div {
+  padding: 10px;
+}
+.nav-bar {
+  display: flex;
+}
+h2 {
+  padding: 5px;
+}
+/* .images-display {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+  grid-gap: 10px;
+  cursor: pointer;
+} */
+.videos {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 4fr));
+  grid-gap: 20px;
+}
+
