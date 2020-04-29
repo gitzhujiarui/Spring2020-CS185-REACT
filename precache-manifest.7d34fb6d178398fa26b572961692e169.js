@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "77f07e42bc1dbadef702383c99586389",
+    "revision": "825cd89c578862d0b0526ed4a359b4fa",
     "url": "/Spring2020-CS185-REACT/index.html"
   },
   {
-    "revision": "1c6e16b32fc99cdd6f5e",
-    "url": "/Spring2020-CS185-REACT/static/css/main.ce52df81.chunk.css"
+    "revision": "9aeea6606aafee8c910f",
+    "url": "/Spring2020-CS185-REACT/static/css/main.9e1293c5.chunk.css"
   },
   {
-    "revision": "c37d8dad4139911585b3",
-    "url": "/Spring2020-CS185-REACT/static/js/2.bef810f0.chunk.js"
+    "revision": "4ebcd78493f488ede727",
+    "url": "/Spring2020-CS185-REACT/static/js/2.c0384fdf.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/Spring2020-CS185-REACT/static/js/2.bef810f0.chunk.js.LICENSE.txt"
+    "revision": "04007fcd50e895bcbb2b21327be92c6e",
+    "url": "/Spring2020-CS185-REACT/static/js/2.c0384fdf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1c6e16b32fc99cdd6f5e",
-    "url": "/Spring2020-CS185-REACT/static/js/main.1590a502.chunk.js"
+    "revision": "9aeea6606aafee8c910f",
+    "url": "/Spring2020-CS185-REACT/static/js/main.529abec4.chunk.js"
   },
   {
     "revision": "661dc768aeba80eb30d3",
@@ -42,6 +42,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "228f0f5fcaad6e087d812ccfc504f64f",
     "url": "/Spring2020-CS185-REACT/static/media/massive_black_holes.228f0f5f.jpg"
+  },
+  {
+    "revision": "ef34dcd0266f460ca70d1fc5f0a5ed4d",
+    "url": "/Spring2020-CS185-REACT/static/media/project_1.ef34dcd0.jpg"
+  },
+  {
+    "revision": "221f64e5dc81348cf3b229d12feaec10",
+    "url": "/Spring2020-CS185-REACT/static/media/project_2.221f64e5.jpg"
+  },
+  {
+    "revision": "49f23b546b00caeaf1ab7b4210f53f9d",
+    "url": "/Spring2020-CS185-REACT/static/media/project_3.49f23b54.jpg"
+  },
+  {
+    "revision": "4e01527dcef3c3958c0246d904339a91",
+    "url": "/Spring2020-CS185-REACT/static/media/project_4.4e01527d.jpg"
   },
   {
     "revision": "2d01e3a23579e76a1429816d637f460f",

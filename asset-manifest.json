@@ -1,29 +1,33 @@
 {
   "files": {
-    "main.css": "/Spring2020-CS185-REACT/static/css/main.ce52df81.chunk.css",
-    "main.js": "/Spring2020-CS185-REACT/static/js/main.1590a502.chunk.js",
-    "main.js.map": "/Spring2020-CS185-REACT/static/js/main.1590a502.chunk.js.map",
+    "main.css": "/Spring2020-CS185-REACT/static/css/main.9e1293c5.chunk.css",
+    "main.js": "/Spring2020-CS185-REACT/static/js/main.529abec4.chunk.js",
+    "main.js.map": "/Spring2020-CS185-REACT/static/js/main.529abec4.chunk.js.map",
     "runtime-main.js": "/Spring2020-CS185-REACT/static/js/runtime-main.38d79eb3.js",
     "runtime-main.js.map": "/Spring2020-CS185-REACT/static/js/runtime-main.38d79eb3.js.map",
-    "static/js/2.bef810f0.chunk.js": "/Spring2020-CS185-REACT/static/js/2.bef810f0.chunk.js",
-    "static/js/2.bef810f0.chunk.js.map": "/Spring2020-CS185-REACT/static/js/2.bef810f0.chunk.js.map",
+    "static/js/2.c0384fdf.chunk.js": "/Spring2020-CS185-REACT/static/js/2.c0384fdf.chunk.js",
+    "static/js/2.c0384fdf.chunk.js.map": "/Spring2020-CS185-REACT/static/js/2.c0384fdf.chunk.js.map",
     "index.html": "/Spring2020-CS185-REACT/index.html",
-    "precache-manifest.620b06106e2b0fd3d3dff87ee2f6a66b.js": "/Spring2020-CS185-REACT/precache-manifest.620b06106e2b0fd3d3dff87ee2f6a66b.js",
+    "precache-manifest.7d34fb6d178398fa26b572961692e169.js": "/Spring2020-CS185-REACT/precache-manifest.7d34fb6d178398fa26b572961692e169.js",
     "service-worker.js": "/Spring2020-CS185-REACT/service-worker.js",
-    "static/css/main.ce52df81.chunk.css.map": "/Spring2020-CS185-REACT/static/css/main.ce52df81.chunk.css.map",
-    "static/js/2.bef810f0.chunk.js.LICENSE.txt": "/Spring2020-CS185-REACT/static/js/2.bef810f0.chunk.js.LICENSE.txt",
+    "static/css/main.9e1293c5.chunk.css.map": "/Spring2020-CS185-REACT/static/css/main.9e1293c5.chunk.css.map",
+    "static/js/2.c0384fdf.chunk.js.LICENSE.txt": "/Spring2020-CS185-REACT/static/js/2.c0384fdf.chunk.js.LICENSE.txt",
     "static/media/black_hole.jpg": "/Spring2020-CS185-REACT/static/media/black_hole.2dea9abf.jpg",
     "static/media/darkenergy.jpg": "/Spring2020-CS185-REACT/static/media/darkenergy.2234e258.jpg",
     "static/media/galaxy.jpg": "/Spring2020-CS185-REACT/static/media/galaxy.4b1efbc2.jpg",
     "static/media/gravitational_wave.jpeg": "/Spring2020-CS185-REACT/static/media/gravitational_wave.919b5c16.jpeg",
     "static/media/massive_black_holes.jpg": "/Spring2020-CS185-REACT/static/media/massive_black_holes.228f0f5f.jpg",
+    "static/media/project_1.jpg": "/Spring2020-CS185-REACT/static/media/project_1.ef34dcd0.jpg",
+    "static/media/project_2.jpg": "/Spring2020-CS185-REACT/static/media/project_2.221f64e5.jpg",
+    "static/media/project_3.jpg": "/Spring2020-CS185-REACT/static/media/project_3.49f23b54.jpg",
+    "static/media/project_4.jpg": "/Spring2020-CS185-REACT/static/media/project_4.4e01527d.jpg",
     "static/media/universe_3.jpg": "/Spring2020-CS185-REACT/static/media/universe_3.2d01e3a2.jpg",
     "static/media/universe_4.jpg": "/Spring2020-CS185-REACT/static/media/universe_4.b61bcafe.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.38d79eb3.js",
-    "static/js/2.bef810f0.chunk.js",
-    "static/css/main.ce52df81.chunk.css",
-    "static/js/main.1590a502.chunk.js"
+    "static/js/2.c0384fdf.chunk.js",
+    "static/css/main.9e1293c5.chunk.css",
+    "static/js/main.529abec4.chunk.js"
   ]
 }
