@@ -2,7 +2,7 @@
   "name": "test-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ishuamali.github.io/react-gh-pages",
+  "homepage": "http://gitzhujiarui.github.io/Spring2020-CS185-REACT",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
