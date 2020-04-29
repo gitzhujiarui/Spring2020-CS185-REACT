@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import './App.css'
 import TabList from './component/TabList';
 import Body from './component/Body';
+import SimpleReactLightbox from 'simple-react-lightbox';
+import ScrollUpButton from "react-scroll-up-button";
+
 
 export class App extends Component {
   constructor(){
@@ -35,16 +38,19 @@ export class App extends Component {
       }
     ]
     return (
-      <div className="body">
-        <div className="nav-bar">
-          <TabList tabs={tabs}
-          changeTab={this.changeTab} 
-          activeTab={this.state.activeTab}/>
+      <SimpleReactLightbox>
+        <div className="body">
+          <ScrollUpButton />
+          <div className="nav-bar">
+            <TabList tabs={tabs}
+            changeTab={this.changeTab} 
+            activeTab={this.state.activeTab}/>
+          </div>
+          <div className="main-body">
+            <Body activeTab={this.state.activeTab}/>
+          </div>
         </div>
-        <div className="main-body">
-          <Body activeTab={this.state.activeTab}/>
-        </div>
-      </div>
+      </SimpleReactLightbox>
     );
   }
 }

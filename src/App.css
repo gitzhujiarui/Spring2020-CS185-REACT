@@ -38,13 +38,20 @@
 } */
 .main-body{
   display: flex;
+  /* background-color: rgb(67, 67, 199); */
 }
 .main-body > div {
   padding: 10px;
 }
 .nav-bar {
   display: flex;
+  cursor: pointer;
 }
+h2:hover {
+  background-color: grey;
+}
+
+
 h2 {
   padding: 5px;
 }
@@ -64,4 +71,3 @@ h2 {
   grid-template-columns: repeat(auto-fit, minmax(500px, 4fr));
   grid-gap: 20px;
 }
-

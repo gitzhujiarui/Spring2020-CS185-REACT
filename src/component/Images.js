@@ -9,6 +9,7 @@ import universe_3 from './images/universe_3.jpg'
 import galaxy_2 from './images/galaxy_2.jpeg'
 import universe_4 from './images/universe_4.jpg'
 import ImageList from './ImageList';
+import { SRLWrapper } from "simple-react-lightbox";
 
 
 export class Images extends Component {
@@ -62,7 +63,9 @@ export class Images extends Component {
         
         return (
             <div className="images-display">
-                <ImageList images={images}/>
+                <SRLWrapper>
+                    <ImageList images={images}/>
+                </SRLWrapper>
             </div>
             // <div className="images-display">
             //      {/* <img src={black_hole} alt="black_hole" height="150" width="300"/>
