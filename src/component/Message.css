@@ -1,0 +1,69 @@
+.message {
+    display: contents;
+}
+.message > div {
+    padding: 10px;
+}
+
+.form {
+    width: 100%;
+    height: 60vh;
+    padding: 0px 0px 10px 10px;
+    /* overflow-y: auto; */
+    border-radius: 12px;
+  }
+
+  .message-display {
+    padding: 10px;
+    display: flex;
+    float: left;
+    justify-items: center;
+    height: 100%;
+    /* background-color: antiquewhite; */
+  }
+
+  .name {
+    color:blue;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 8px 0px 0px;
+    line-height: 20px;
+  }
+
+  .date {
+      color: black;
+      font-size: 15px;
+      font-style: italic;
+  }
+
+  .message {
+      color:black;
+  }
+
+  .description {
+      color:black;
+  }
+
+  .my-message {
+      background-color: antiquewhite;
+  }
+
+.form-fade-in {
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+}
+
+.my-message-fade-in {
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
