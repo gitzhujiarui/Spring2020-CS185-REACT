@@ -46,6 +46,12 @@
 
   .my-message {
       background-color: antiquewhite;
+      height: 100%;
+      /* overflow: scroll; */
+      overflow:scroll;
+      height:500px;
+      /* width:100%; */
+      overflow:auto
   }
 
 .form-fade-in {
@@ -67,3 +73,10 @@
     0% {opacity:0;}
     100% {opacity:1;}
 }
+
+
+textarea {
+    border: 1px solid #AAA;
+    border-radius: 4px;
+    padding: 50px 50px;
+  }

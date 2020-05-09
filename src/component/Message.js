@@ -106,7 +106,7 @@ export class Message extends Component {
                 <form onSubmit={this.myFormHandler}>
                         <br></br>
                             <p>Name:&nbsp;
-                            <input name='name' type='text' minLength='3' maxLength='19' required onChange={this.myChangeHandler} /></p>
+                            <p name='name' type='text' minLength='3' maxLength='19' required onChange={this.myChangeHandler} /></p>
                         <br></br>
                             <p>Description:<br/>
                             <input name='description' type='text' size='50' maxLength='99' onChange={this.myChangeHandler}/>
@@ -145,6 +145,10 @@ export class Message extends Component {
                                 <span className='name'>{dataEntry.name}</span><br/>
                                 <span className='description'>{dataEntry.description}</span><br/>
                                 <span className='message'>{dataEntry.message}</span><br/>
+                                {/* <textarea className='date'>{dataEntry.date}</textarea><br/>
+                                <textarea className='name'>{dataEntry.name}</textarea><br/>
+                                <texarea className='description'>{dataEntry.description}</texarea><br/>
+                                <textarea className='message'>{dataEntry.message}</textarea><br/> */}
                                 <br/>
                                 <br/>
                             </div>
