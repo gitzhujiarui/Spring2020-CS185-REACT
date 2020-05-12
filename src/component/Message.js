@@ -106,7 +106,7 @@ export class Message extends Component {
                 <form onSubmit={this.myFormHandler}>
                         <br></br>
                             <p>Name:&nbsp;
-                            <p name='name' type='text' minLength='3' maxLength='19' required onChange={this.myChangeHandler} /></p>
+                            <input name='name' type='text' minLength='3' maxLength='19' required onChange={this.myChangeHandler} /></p>
                         <br></br>
                             <p>Description:<br/>
                             <input name='description' type='text' size='50' maxLength='99' onChange={this.myChangeHandler}/>
