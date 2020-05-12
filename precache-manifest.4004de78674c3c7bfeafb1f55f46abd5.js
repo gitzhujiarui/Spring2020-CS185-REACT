@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b3c5e296004e4da584fe39aae4024949",
+    "revision": "38fd775099d9c017bfcc0f59b6701309",
     "url": "/Spring2020-CS185-REACT/index.html"
   },
   {
-    "revision": "c7dd8629012b01228cd6",
+    "revision": "f42ada3e16f66a5ee246",
     "url": "/Spring2020-CS185-REACT/static/css/main.60f7a5b8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Spring2020-CS185-REACT/static/js/2.71c7c936.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c7dd8629012b01228cd6",
-    "url": "/Spring2020-CS185-REACT/static/js/main.adad476f.chunk.js"
+    "revision": "f42ada3e16f66a5ee246",
+    "url": "/Spring2020-CS185-REACT/static/js/main.cb4a2a5d.chunk.js"
   },
   {
     "revision": "661dc768aeba80eb30d3",

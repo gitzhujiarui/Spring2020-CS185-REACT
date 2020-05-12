@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Spring2020-CS185-REACT/static/css/main.60f7a5b8.chunk.css",
-    "main.js": "/Spring2020-CS185-REACT/static/js/main.adad476f.chunk.js",
-    "main.js.map": "/Spring2020-CS185-REACT/static/js/main.adad476f.chunk.js.map",
+    "main.js": "/Spring2020-CS185-REACT/static/js/main.cb4a2a5d.chunk.js",
+    "main.js.map": "/Spring2020-CS185-REACT/static/js/main.cb4a2a5d.chunk.js.map",
     "runtime-main.js": "/Spring2020-CS185-REACT/static/js/runtime-main.38d79eb3.js",
     "runtime-main.js.map": "/Spring2020-CS185-REACT/static/js/runtime-main.38d79eb3.js.map",
     "static/js/2.71c7c936.chunk.js": "/Spring2020-CS185-REACT/static/js/2.71c7c936.chunk.js",
     "static/js/2.71c7c936.chunk.js.map": "/Spring2020-CS185-REACT/static/js/2.71c7c936.chunk.js.map",
     "index.html": "/Spring2020-CS185-REACT/index.html",
-    "precache-manifest.a59ec78e5b5befb394f017a8718e95d4.js": "/Spring2020-CS185-REACT/precache-manifest.a59ec78e5b5befb394f017a8718e95d4.js",
+    "precache-manifest.4004de78674c3c7bfeafb1f55f46abd5.js": "/Spring2020-CS185-REACT/precache-manifest.4004de78674c3c7bfeafb1f55f46abd5.js",
     "service-worker.js": "/Spring2020-CS185-REACT/service-worker.js",
     "static/css/main.60f7a5b8.chunk.css.map": "/Spring2020-CS185-REACT/static/css/main.60f7a5b8.chunk.css.map",
     "static/js/2.71c7c936.chunk.js.LICENSE.txt": "/Spring2020-CS185-REACT/static/js/2.71c7c936.chunk.js.LICENSE.txt",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.38d79eb3.js",
     "static/js/2.71c7c936.chunk.js",
     "static/css/main.60f7a5b8.chunk.css",
-    "static/js/main.adad476f.chunk.js"
+    "static/js/main.cb4a2a5d.chunk.js"
   ]
 }

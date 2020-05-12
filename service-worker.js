@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Spring2020-CS185-REACT/precache-manifest.a59ec78e5b5befb394f017a8718e95d4.js"
+  "/Spring2020-CS185-REACT/precache-manifest.4004de78674c3c7bfeafb1f55f46abd5.js"
 );
 
 self.addEventListener('message', (event) => {
