@@ -1,0 +1,18 @@
+.movie-card {
+    display: flex;
+    background-color:beige;
+    overflow: hidden;
+}
+
+.director {
+    font-weight: bold;
+}
+
+.Metascore {
+    background-color: blue;
+}
+
+body.modal-open {
+    overflow: hidden;
+    position: fixed;
+}
