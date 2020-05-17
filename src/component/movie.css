@@ -1,0 +1,25 @@
+
+.movieCard
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+    grid-gap: 5px;
+
+}
+
+.myMovie {
+    cursor: pointer;
+}
+
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+    background-color: red;
+  }
+
+
+  body.modal-open {
+    overflow: hidden;
+    position: fixed;
+}
