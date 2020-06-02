@@ -48,7 +48,7 @@ export class AddMovie extends Component {
 
   myFormHandler = (event) => {
     event.preventDefault();
-    let req = 'https://www.omdbapi.com/?apikey=8ac22864&i='+this.state.movId;
+    let req = 'https://www.omdbapi.com/?apikey=623ad784&i='+this.state.movId;
     this.getMovieInfo(this, req);
   }
 

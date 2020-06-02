@@ -29,8 +29,7 @@ export class CreateList extends Component {
       name: this.state.newListName, 
     };
     firebase.database().ref('lists').push().set(myObj);
-    //this.setState({shouldUpdate: true});
-    alert("List successfully created!");
+    alert("List created!");
   }
 
   render() {
