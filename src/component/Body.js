@@ -4,6 +4,10 @@ import Images from './Images';
 import Projects from './Projects';
 import Videos from './Videos';
 import Message from './Message';
+// import myMovie from './myMovie'
+import AddMovie from './AddMovie'
+import CreateList from './CreateList'
+// import myMovie from './myMovie'
 import Movie from './Movie'
 
 export class Body extends Component {
@@ -19,8 +23,12 @@ export class Body extends Component {
             return <Projects/>
         } else if (activeTab == 5){
             return <Message/>
-        } else {
+        } else if (activeTab == 6){
             return <Movie/>
+        } else if (activeTab == 7){
+            return <AddMovie/>
+        } else {
+            return <CreateList/>
         }
     }
 

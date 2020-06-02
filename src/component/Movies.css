@@ -1,0 +1,76 @@
+.movLightbox {
+    display: grid;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0,0,0,0.8);
+    z-index: 1;
+    overflow: auto;
+    position: fixed;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .movLightboxContainer {
+    width: 650px;
+    margin: auto;
+    max-width: 750px;
+    /* background-color: #FFF; */
+    border: 5px solid #FFF;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .movLightboxInfo {
+    height: 100%;
+    background-color: #FFF;
+    margin: auto;
+    padding: 0px 20px;
+    float: right;
+    max-width: 750px;
+    color: #666;
+  }
+
+  .movLightboxContent {
+    height: 100%;
+    margin: auto;
+    float: left;
+    /* border: 5px solid #FFF; */
+    outline: 1px solid #111;
+    outline-offset: -5px;
+  }
+
+  .title {
+    color: black;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 45px;
+  }
+  
+  .director {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  
+  .rating {
+    /* background-color: blue; */
+    /* border: 1px solid black; */
+    color: #222;
+    padding: 8px 24px 8px 24px;
+    font-weight: bold;
+  }
+
+  .movContainer {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+    justify-items: center;
+    justify-content: center;
+  }
+
+  .content {
+    padding: 0px 15px;
+    height: 100%;
+  }
+  

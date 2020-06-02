@@ -4,7 +4,7 @@ import TabList from './component/TabList';
 import Body from './component/Body';
 import SimpleReactLightbox from 'simple-react-lightbox';
 import ScrollUpButton from "react-scroll-up-button";
-const firebase = require('firebase')
+// const firebase = require('firebase')
 
 
 export class App extends Component {
@@ -43,7 +43,15 @@ export class App extends Component {
       },
       {
         id: 6,
-        title: 'Movies'
+        title: 'Movie'
+      },
+      {
+        id: 7,
+        title: 'AddMovie'
+      },
+      {
+        id: 8,
+        title: 'CreateList'
       }
     ]
     return (
