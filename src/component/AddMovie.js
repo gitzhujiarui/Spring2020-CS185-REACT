@@ -8,42 +8,59 @@ export class AddMovie extends Component {
     super();
     this.state = {
       movId: '',
-      Poster: '',
-      Title: '',
-      Director: '',
-      imdbRating: '',
-      Plot: '',
-      Runtime: '',
-      Metascore: '',
+      title: '',
+      imdb: '',
+      src: '',
+      metascore: '',
+      plot: '',
+      director: '',
     }
+  }
+
+  componentDidMount(){
+    document.title = 'Add new Movie';
+    if (!firebase.apps.length) {
+      firebase.initializeApp(config);
+    }
+  }
+
+  updateDataBase(obj) {
+    let formObj = {
+      name: obj.state.title,
+      imdb: obj.state.imdb,
+      src: obj.state.src,
+      plot: obj.state.plot,
+      director: obj.state.director,
+    };
+    let ref = firebase.database().ref('movies');
+    ref.once('value').then(function(snapshot) {
+      let movExists = snapshot.child(obj.state.movId).exists();
+      if(movExists) {
+        alert('Movie is already in the database. No duplicate allowed!');
+      } else {
+        ref.child(obj.state.movId).set(formObj);
+        alert('Movie added!');
+      }
+    });
   }
 
   getMovieInfo(obj, req) {
     axios.get(req)
     .then(function (response) {
       obj.setState({
-        Poster: response.data.Poster,
-        Title: response.data.Title,
-        Director: response.data.Director,
-        imdbRating: response.data.imdbRating,
-        Plot: response.data.Plot,
-        Runtime: response.data.Runtime,
-        Metascore: response.data.Metascore,
+        src: response.data.Poster,
+        director: response.data.Director,
+        plot: response.data.Plot,
+        title: response.data.Title,
+        imdb: response.data.imdbRating,
       });
     })
     .then(function () {
-      obj.updateDb(obj);
+      obj.updateDataBase(obj);
     })
     .catch(function (error) {
       console.log(error);
     })
-  }
-
-  componentDidMount(){
-    document.title = 'Add a Movie';
-    if (!firebase.apps.length) {
-      firebase.initializeApp(config);
-    }
   }
 
   myFormHandler = (event) => {
@@ -58,37 +75,14 @@ export class AddMovie extends Component {
     this.setState({[field]: value});
   }
 
-  updateDb(obj) {
-    let formObj = {
-      Title: obj.state.Title,
-      Poster: obj.state.Poster,
-      Director: obj.state.Director,
-      imdbRating: obj.state.imdbRating,
-      Plot: obj.state.Plot,
-      Runtime: obj.state.Runtime,
-      Metascore: obj.state.Metascore,
-    };
-    let ref = firebase.database().ref('movies');
-    ref.once('value').then(function(snapshot) {
-      let movExists = snapshot.child(obj.state.movId).exists();
-      if(movExists) {
-        alert('Movie has already been added. Duplicate is not allowed.');
-      } else {
-        ref.child(obj.state.movId).set(formObj);
-        alert('Movie successfully added!');
-      }
-    });
-  }
-
-
   render() {
     return(
       <div>
         <form onSubmit={this.myFormHandler}>
           <h2>Add New Movie</h2>
-          <p>Enter movie ID(imdbID)</p>
-          <input name='movId' type='text' size='60' required onChange={this.inputHandler}></input><br/><br/>
-          <input type='submit' size='80' id='submit' name='submit' value='submit'></input>
+          <p>Enter the movie ID of the movie you want to add:</p>
+          <input name='movId' type='text' size='30' required onChange={this.inputHandler}></input><br/><br/>
+          <input type='submit' id='submit' name='submit' value='Add Movie'></input>
         </form>
       </div>      
     );
