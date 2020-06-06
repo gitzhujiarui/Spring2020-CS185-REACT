@@ -14,6 +14,7 @@ export class AddMovie extends Component {
       metascore: '',
       plot: '',
       director: '',
+      actors: '',
     }
   }
 
@@ -31,6 +32,7 @@ export class AddMovie extends Component {
       src: obj.state.src,
       plot: obj.state.plot,
       director: obj.state.director,
+      actors: obj.state.actors,
     };
     let ref = firebase.database().ref('movies');
     ref.once('value').then(function(snapshot) {
@@ -53,6 +55,7 @@ export class AddMovie extends Component {
         plot: response.data.Plot,
         title: response.data.Title,
         imdb: response.data.imdbRating,
+        actors: response.data.Actors,
       });
     })
     .then(function () {
