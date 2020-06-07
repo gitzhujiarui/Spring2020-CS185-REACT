@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
-import './Graph.css'
+import galaxy_2 from './images/galaxy_2.jpeg'
+// import './Graph.css'
 var d3 = require("d3");
+
+var divStyle = {
+    color: 'blue',
+    width:  1440,
+};
 
 const data = {
     nodes: [
@@ -22,6 +28,30 @@ const data = {
 }
 
 export class Graph extends Component {
+    drag = (simulation) => {
+        function dragStarted(d) {
+            if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+            d.fx = d.x;
+            d.fy = d.y;
+        }
+
+        function dragged(d) {
+            d.fx = d3.event.x;
+            d.fy = d3.event.y;
+        }
+
+        function dragEnded(d) {
+            if (!d3.event.active) simulation.alphaTarget(0);
+            d.fx = null;
+            d.fy = null;
+        }
+
+        return d3.drag()
+            .on("start", dragStarted)
+            .on("drag", dragged)
+            .on("end", dragEnded);
+    }
+
     chart(nodes, links) {
         const width = 1440;
         const height = 900;
@@ -40,26 +70,41 @@ export class Graph extends Component {
             .join("line")
             .attr("stroke-width", d => Math.sqrt(d.value));
 
+        const color = (node) => {
+            if (node.group == 1)
+                return d3.color("blue");
+            else
+                return d3.color("pink");
+        }
+
+        const radius = (node) => {
+            if (node.group == 1) 
+                return 100;
+            else 
+                return 50;
+        }
+
+        const simulation = d3.forceSimulation(obj_nodes)
+            .force("link", d3.forceLink().links(links).id(d => { return d.index; }).distance(200))
+            .force("charge", d3.forceManyBody())
+            .force("center", d3.forceCenter(width / 2, height / 2));
+
         const node = svg.append("g")
             .attr("stroke", "#fff")
             .attr("stroke-width", 1.5)
             .selectAll("circle")
             .data(obj_nodes)
             .join("circle")
-            .attr("r", 20)
-            .attr("fill", d3.color("steelblue"));
-
-        const simulation = d3.forceSimulation(obj_nodes)
-            .force("link", d3.forceLink().links(links).id(d => { return d.index }).distance(200))
-            .force("charge", d3.forceManyBody())
-            .force("center", d3.forceCenter(width / 2, height / 2));
+            .attr("r", radius)
+            .attr("fill", color)
+            .call(this.drag(simulation));
 
         simulation.on("tick", () => {
             link
                 .attr("x1", d => d.source.x)
                 .attr("y1", d => d.source.y)
-                .attr("x2", d => d.source.x)
-                .attr("y2", d => d.source.y);
+                .attr("x2", d => d.target.x)
+                .attr("y2", d => d.target.y);
 
             node
                 .attr("cx", d => d.x)
@@ -75,7 +120,8 @@ export class Graph extends Component {
     }
 
     render() {
-        return <div id="mysvg">
+        return <div id="mysvg" style={divStyle}>
+            {/* <img src={galaxy_2} alt="galaxy_2" height="900" width="1440"/> */}
             </div>
     }
 }

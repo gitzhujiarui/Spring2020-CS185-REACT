@@ -7,7 +7,8 @@ import Message from './Message';
 import Movies from './Movies';
 import AddMovie from './AddMovie';
 import CreateList from './CreateList';
-import Graph from './Graph'
+import Graph from './Graph';
+// import GraphVis from './GraphVis'
 
 export class Body extends Component {
   displayContent = () => {
