@@ -7,7 +7,7 @@ import Message from './Message';
 import Movies from './Movies';
 import AddMovie from './AddMovie';
 import CreateList from './CreateList';
-import Graph from './Graph';
+import GraphVis from './GraphVis';
 // import GraphVis from './GraphVis'
 
 export class Body extends Component {
@@ -30,7 +30,7 @@ export class Body extends Component {
     } else if (activeTab == 8){
       return <CreateList/>
     } else {
-      return <Graph/>
+      return <GraphVis/>
     }
   }
   render() {
