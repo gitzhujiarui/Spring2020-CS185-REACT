@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Spring2020-CS185-REACT/static/css/main.98ee2c26.chunk.css",
-    "main.js": "/Spring2020-CS185-REACT/static/js/main.596a7ba0.chunk.js",
-    "main.js.map": "/Spring2020-CS185-REACT/static/js/main.596a7ba0.chunk.js.map",
+    "main.css": "/Spring2020-CS185-REACT/static/css/main.a005680a.chunk.css",
+    "main.js": "/Spring2020-CS185-REACT/static/js/main.0d68b914.chunk.js",
+    "main.js.map": "/Spring2020-CS185-REACT/static/js/main.0d68b914.chunk.js.map",
     "runtime-main.js": "/Spring2020-CS185-REACT/static/js/runtime-main.38d79eb3.js",
     "runtime-main.js.map": "/Spring2020-CS185-REACT/static/js/runtime-main.38d79eb3.js.map",
-    "static/js/2.8084eee5.chunk.js": "/Spring2020-CS185-REACT/static/js/2.8084eee5.chunk.js",
-    "static/js/2.8084eee5.chunk.js.map": "/Spring2020-CS185-REACT/static/js/2.8084eee5.chunk.js.map",
+    "static/js/2.6fc43441.chunk.js": "/Spring2020-CS185-REACT/static/js/2.6fc43441.chunk.js",
+    "static/js/2.6fc43441.chunk.js.map": "/Spring2020-CS185-REACT/static/js/2.6fc43441.chunk.js.map",
     "index.html": "/Spring2020-CS185-REACT/index.html",
-    "precache-manifest.eb0003284c406fda97ade8459c1a9d41.js": "/Spring2020-CS185-REACT/precache-manifest.eb0003284c406fda97ade8459c1a9d41.js",
+    "precache-manifest.98bff476d193018625b150fe60fcff00.js": "/Spring2020-CS185-REACT/precache-manifest.98bff476d193018625b150fe60fcff00.js",
     "service-worker.js": "/Spring2020-CS185-REACT/service-worker.js",
-    "static/css/main.98ee2c26.chunk.css.map": "/Spring2020-CS185-REACT/static/css/main.98ee2c26.chunk.css.map",
-    "static/js/2.8084eee5.chunk.js.LICENSE.txt": "/Spring2020-CS185-REACT/static/js/2.8084eee5.chunk.js.LICENSE.txt",
+    "static/css/main.a005680a.chunk.css.map": "/Spring2020-CS185-REACT/static/css/main.a005680a.chunk.css.map",
+    "static/js/2.6fc43441.chunk.js.LICENSE.txt": "/Spring2020-CS185-REACT/static/js/2.6fc43441.chunk.js.LICENSE.txt",
     "static/media/black_hole.jpg": "/Spring2020-CS185-REACT/static/media/black_hole.2dea9abf.jpg",
     "static/media/darkenergy.jpg": "/Spring2020-CS185-REACT/static/media/darkenergy.2234e258.jpg",
     "static/media/galaxy.jpg": "/Spring2020-CS185-REACT/static/media/galaxy.4b1efbc2.jpg",
@@ -26,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.38d79eb3.js",
-    "static/js/2.8084eee5.chunk.js",
-    "static/css/main.98ee2c26.chunk.css",
-    "static/js/main.596a7ba0.chunk.js"
+    "static/js/2.6fc43441.chunk.js",
+    "static/css/main.a005680a.chunk.css",
+    "static/js/main.0d68b914.chunk.js"
   ]
 }
